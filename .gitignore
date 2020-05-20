@@ -1,0 +1,9 @@
+*.b#*
+*.s#*
+.DS_Store
+
+*.lck
+
+*.lck
+History/*
+__Previews/*
