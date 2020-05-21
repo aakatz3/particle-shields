@@ -7,3 +7,5 @@
 *.lck
 History/*
 __Previews/*
+Project Logs for programmer-shield/*
+*.zip
