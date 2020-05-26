@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:54:18 PM On 5/20/2020
+
+Output: Digikey BOM
+Type  : BOM
+From  : Variant [[No Variations]] of Project [programmer-shield.PrjPcb]
+   Generated File[Digikey BOM-programmer-shield.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:54:22 PM On 5/20/2020

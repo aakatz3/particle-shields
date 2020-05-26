@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for programmer-shield
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -156,62 +156,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=.\Digikey BOM-programmer-shield.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.REP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=.\OSHPark Manufacturing FIles\programmer-shield.TXT
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ProjAuth
 Value=Andrew Katz
@@ -235,7 +179,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for programmer-shield
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1238,16 +1182,64 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Discrete Semiconductors.DbLib/Rectifier Diodes
-ComponentDesignItemID0=NRVB120VLSFT1G
-ComponentSymbolReference0=Schottky
+ComponentLibraryIdentifier0=AERO Parts.IntLib
+ComponentDesignItemID0=SM0805GCL
+ComponentSymbolReference0=SM0805GCL
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Connectors.DbLib/Debug Connectors
+ComponentDesignItemID1=ARM Cortex Debug
+ComponentSymbolReference1=Cortex Debug
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Connectors.DbLib/Debug Connectors
+ComponentDesignItemID2=ARM Standard Debug
+ComponentSymbolReference2=ARM Standard JTAG
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Connectors.DbLib/Headers
+ComponentDesignItemID3=SSW-112-01-G-S
+ComponentSymbolReference3=Header 1X12
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Discrete Semiconductors.DbLib/Rectifier Diodes
+ComponentDesignItemID4=NRVB120VLSFT1G
+ComponentSymbolReference4=Schottky
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Hardware.DbLib/Shunts and Jumpers
+ComponentDesignItemID5=0603 link (Open)
+ComponentSymbolReference5=jmp-link-open
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Particle-Devices.SCHLIB
+ComponentDesignItemID6=SPARK_CORE
+ComponentSymbolReference6=SPARK_CORE
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Passive Components.DbLib/Resistors
+ComponentDesignItemID7=RES 0805 10K 1%
+ComponentSymbolReference7=res
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Passive Components.DbLib/Resistors
+ComponentDesignItemID8=RES 0805 698 1%
+ComponentSymbolReference8=res
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1261,53 +1253,209 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Case Code (Imperial)
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Case Code (Metric)
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Case/Package
 ParameterUpdate2=1
-ParameterName3=ComponentLink2Description
+ParameterName3=Category
 ParameterUpdate3=1
-ParameterName4=ComponentLink2URL
+ParameterName4=Color
 ParameterUpdate4=1
-ParameterName5=ComponentLink3Description
+ParameterName5=Comment
 ParameterUpdate5=1
-ParameterName6=Description
+ParameterName6=Component Kind
 ParameterUpdate6=1
-ParameterName7=Description in Visual
+ParameterName7=ComponentLink1Description
 ParameterUpdate7=1
-ParameterName8=Diode Configuration
+ParameterName8=ComponentLink1URL
 ParameterUpdate8=1
-ParameterName9=Grade
+ParameterName9=ComponentLink2Description
 ParameterUpdate9=1
-ParameterName10=If (Amps)
+ParameterName10=ComponentLink2URL
 ParameterUpdate10=1
-ParameterName11=Ifsm (Amps)
+ParameterName11=ComponentLink3Description
 ParameterUpdate11=1
-ParameterName12=Library Reference
+ParameterName12=ComponentLink3URL
 ParameterUpdate12=1
-ParameterName13=Manufacturer
+ParameterName13=Contact Finish
 ParameterUpdate13=1
-ParameterName14=Manufacturer P/N
+ParameterName14=Description
 ParameterUpdate14=1
-ParameterName15=P/N
+ParameterName15=Description in Visual
 ParameterUpdate15=1
-ParameterName16=Package Class
+ParameterName16=Diode Configuration
 ParameterUpdate16=1
-ParameterName17=PCB Package
+ParameterName17=Dominant Wavelength
 ParameterUpdate17=1
-ParameterName18=Type
+ParameterName18=Forward Current
 ParameterUpdate18=1
-ParameterName19=Vf (V)
+ParameterName19=Forward Voltage
 ParameterUpdate19=1
-ParameterName20=VRRM (V)
+ParameterName20=Gender
 ParameterUpdate20=1
+ParameterName21=Grade
+ParameterUpdate21=1
+ParameterName22=Height
+ParameterUpdate22=1
+ParameterName23=If (Amps)
+ParameterUpdate23=1
+ParameterName24=Ifsm (Amps)
+ParameterUpdate24=1
+ParameterName25=Illumination Color
+ParameterUpdate25=1
+ParameterName26=Lead Free
+ParameterUpdate26=1
+ParameterName27=Length
+ParameterUpdate27=1
+ParameterName28=Lens Color
+ParameterUpdate28=1
+ParameterName29=Lens Transparency
+ParameterUpdate29=1
+ParameterName30=Library Reference
+ParameterUpdate30=1
+ParameterName31=Luminous Intensity
+ParameterUpdate31=1
+ParameterName32=Manufacturer
+ParameterUpdate32=1
+ParameterName33=Manufacturer P/N
+ParameterUpdate33=1
+ParameterName34=Manufacturer Part Number
+ParameterUpdate34=1
+ParameterName35=Max Operating Temperature
+ParameterUpdate35=1
+ParameterName36=Min Operating Temperature
+ParameterUpdate36=1
+ParameterName37=Mount
+ParameterUpdate37=1
+ParameterName38=Number of Contacts
+ParameterUpdate38=1
+ParameterName39=Number of Rows
+ParameterUpdate39=1
+ParameterName40=Orientation
+ParameterUpdate40=1
+ParameterName41=P/N
+ParameterUpdate41=1
+ParameterName42=Package Class
+ParameterUpdate42=1
+ParameterName43=Package Quantity
+ParameterUpdate43=1
+ParameterName44=Packaging
+ParameterUpdate44=1
+ParameterName45=PCB Package
+ParameterUpdate45=1
+ParameterName46=Pitch
+ParameterUpdate46=1
+ParameterName47=Power_Rating
+ParameterUpdate47=1
+ParameterName48=Supplier 1
+ParameterUpdate48=1
+ParameterName49=Supplier 2
+ParameterUpdate49=1
+ParameterName50=Supplier 3
+ParameterUpdate50=1
+ParameterName51=Supplier 4
+ParameterUpdate51=1
+ParameterName52=Supplier 5
+ParameterUpdate52=1
+ParameterName53=Supplier 6
+ParameterUpdate53=1
+ParameterName54=Supplier 7
+ParameterUpdate54=1
+ParameterName55=Supplier 8
+ParameterUpdate55=1
+ParameterName56=Supplier Part Number 1
+ParameterUpdate56=1
+ParameterName57=Supplier Part Number 2
+ParameterUpdate57=1
+ParameterName58=Supplier Part Number 3
+ParameterUpdate58=1
+ParameterName59=Supplier Part Number 4
+ParameterUpdate59=1
+ParameterName60=Supplier Part Number 5
+ParameterUpdate60=1
+ParameterName61=Supplier Part Number 6
+ParameterUpdate61=1
+ParameterName62=Supplier Part Number 7
+ParameterUpdate62=1
+ParameterName63=Supplier Part Number 8
+ParameterUpdate63=1
+ParameterName64=Test Current
+ParameterUpdate64=1
+ParameterName65=Tol
+ParameterUpdate65=1
+ParameterName66=Tolerance
+ParameterUpdate66=1
+ParameterName67=Type
+ParameterUpdate67=1
+ParameterName68=Val
+ParameterUpdate68=1
+ParameterName69=Value
+ParameterUpdate69=1
+ParameterName70=Vf (V)
+ParameterUpdate70=1
+ParameterName71=Viewing Angle
+ParameterUpdate71=1
+ParameterName72=VRRM (V)
+ParameterUpdate72=1
+ParameterName73=Width
+ParameterUpdate73=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOD-123FL
+ModelName0=0603_JP_Open
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=0805_RES
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=5103309-5
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=5103309-5 WITH PLUG
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FTSH-105-01-F-DV-007-K
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=FTSH-105-01-F-DV-007-K WITH PLUG
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FTSH-105-01-F-DV-007-K-P-TR
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=LEDC2012X135N_SM0805GCL(Primary)
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=SOD-123FL
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=SPARK_CORE
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=SPARK_CORE _SOCKET
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SPARK_CORE_STACKABLE
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SPARK_CORE_STACKABLE_SOCKET
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=SSW-112-01-G-S
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TST-110-01-G-D
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=TST-110-01-G-D WITH PLUG
+ModelUpdate15=1
+ModelTypeGroup1=SIM
+ModelTypeUpdate1=1
+ModelType16=SIM
+ModelName16=Model Name
+ModelUpdate16=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
