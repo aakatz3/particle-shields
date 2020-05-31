@@ -51,7 +51,7 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
-GenerateClassCluster=0
+GenerateClassCluster=1
 DocumentUniqueId=GKTGSKTJ
 
 [Document2]
@@ -156,6 +156,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=EE789C32-A151-48E9-ADA7-D63A6FB77572
+Description=Cortex + VCOM
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=J3|UniqueId=\DGOYQUSL|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=CF2DD2B3-5A8F-4055-A896-CAD30662D09C
+Description=STDC14
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=J1|UniqueId=\PFDWZESB|Kind=1|AlternatePart= 
+Variation2=Designator=J2|UniqueId=\PNAQJAEQ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for programmer-shield\Design Rule Check - programmer-shield.html
 DItemRevisionGUID=
@@ -213,16 +232,16 @@ DocumentPath=OSHPark Manufacturing FIles\programmer-shield.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjAuth
-Value=Andrew Katz
+Name=ProjShrtName
+Value=Core J-Link Shld
 
 [Parameter2]
 Name=ProjGitURL
 Value=https://github.com/aakatz3/spark-programmer-jlink
 
 [Parameter3]
-Name=ProjShrtName
-Value=Core J-Link Shld
+Name=ProjAuth
+Value=Andrew Katz
 
 [Configuration1]
 Name=Sources
@@ -1229,13 +1248,13 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
-NetClassAutoCompEnabled=0
-NetClassAutoNamedHarnessEnabled=0
+NetClassAutoCompEnabled=1
+NetClassAutoNamedHarnessEnabled=1
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
+NetClassSeparateForBusSections=1
 
 [LibraryUpdateOptions]
 SelectedOnly=0
