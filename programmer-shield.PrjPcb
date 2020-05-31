@@ -156,6 +156,62 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for programmer-shield\Design Rule Check - programmer-shield.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.REP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=OSHPark Manufacturing FIles\programmer-shield.TXT
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjAuth
 Value=Andrew Katz
