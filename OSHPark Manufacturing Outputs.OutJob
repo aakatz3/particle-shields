@@ -108,9 +108,9 @@ Configuration5_Name8=VisibleOrder_Flat
 Configuration5_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 
 [PublishSettings]
-OutputFilePath1=C:\git\spark-programmer-jlink\.\OSHPark Manufacturing FIles\
-ReleaseManaged1=0
-OutputBasePath1=.\
+OutputFilePath1=C:\git\spark-programmer-jlink\Project Outputs for programmer-shield\OSHPark Manufacturing FIles\
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for programmer-shield
 OutputPathMedia1=[Media Name]
 OutputPathMediaValue1=
 OutputPathOutputer1=
@@ -120,7 +120,7 @@ OutputFileName1=
 OutputFileNameMulti1=
 UseOutputNameForMulti1=1
 OutputFileNameSpecial1=
-OpenOutput1=1
+OpenOutput1=0
 OutputFilePath2=C:\git\spark-programmer-jlink\Project Outputs for programmer-shield\Validation\
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for programmer-shield
@@ -149,8 +149,8 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\git\spark-programmer-jlink\.\OSHPark Manufacturing FIles\
-OpenOutputs1=1
+RelativeOutputPath1=C:\git\spark-programmer-jlink\Project Outputs for programmer-shield\OSHPark Manufacturing FIles\
+OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0
 UseOutputName1=0
